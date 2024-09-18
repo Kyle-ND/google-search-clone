@@ -1,0 +1,36 @@
+.nav {
+    position: absolute; /* or use fixed for sticky behavior */
+    top: 0;
+    right: 0;
+    width: auto; /* adjust width as needed */
+    padding: 10px;
+    color: white;
+    box-sizing: border-box;
+  }
+  
+  .nav ul {
+    list-style-type: none; /* Remove bullets */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Make list horizontal */
+  }
+  
+  .nav ul li {
+    margin-right: 20px; /* Space between items */
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .nav ul li a:hover {
+    background-color: #555; /* Hover effect */
+  }
+  
+.logo {
+    align-items: center;
+    justify-self: center;
+    background-color: turquoise;
+    height: 400px;
+}
